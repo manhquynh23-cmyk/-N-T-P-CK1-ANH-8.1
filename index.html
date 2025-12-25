@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>THCS THÁI LONG - English 8 Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div class="school-header">
+            <h1>THCS THÁI LONG</h1>
+            <h2>ÔN THI CUỐI KÌ I - TIẾNG ANH 8 (GLOBAL SUCCESS)</h2>
+        </div>
+        <div id="quiz-section">
+            <div id="part-title"></div>
+            <div id="question-text"></div>
+            <div id="options" class="options-grid"></div>
+            <div class="footer-stats">
+                <div>Câu hỏi: <span id="current-pos">1</span>/35</div>
+                <div>Số câu đúng: <span id="score-correct">0</span></div>
+            </div>
+        </div>
+        <div id="result-screen" style="display: none; text-align: center;">
+            <h2>KẾT QUẢ BÀI THI</h2>
+            <p id="final-stats" style="font-size: 24px; font-weight: bold;"></p>
+            <button class="restart-btn" onclick="location.reload()">LÀM LẠI BÀI THI</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
